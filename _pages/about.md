@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Evolutionary Biology, Behavioral Ecology, Major transitions in Evolution, and Organismality. 
+description: Graduate Fellow and McDonnell International Academy Scholar
 
 profile:
   align: left
@@ -10,15 +10,14 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 
 ---
 
-Hello! I am Israt (pronounced iss-ruh-t). I am a Ph.D. candidate in the <a href="https://strassmannandquellerlab.wordpress.com/">Strassmann-Queller Group</a>. My Ph.D. at WashU is generously funded for 5 years by the <a href="https://global.wustl.edu/mcdonnell-academy/">McDonnell International Scholars Academy</a> where I am also the Bayer Sponsored Fellow. I am also part of the working group <a href="http://www.paradoxoftheorganism.com/speakers.html/">The Paradox of the Organism</a>.
-
-My research broadly asks the quesiton how cooperation and conflict drive the evolution of complex life. Specifically, my empirical work focuses on the maintenance and transformation of multicellularity in the social amoebae *Dictyostelium discoideum*. The separation of unicellular and multicellular stages in D. discoideum life cycle allows me to investigate evolutionary pressures that shape complex social and life-history traits in multicellular development. My research is theoretically grounded in the principles of social evolution with scientific and philosophical implications for the major evolutionary transitions, germline vs somatic evolution, cell type development, and organismality.
+Hello! I am Israt (pronounced iss-ruh-t). I am a Ph.D. candidate in the <a href="https://strassmannandquellerlab.wordpress.com/">Strassmann-Queller Group</a>. My Ph.D. at WashU is generously funded for 5 years by the <a href="https://global.wustl.edu/mcdonnell-academy/">McDonnell International Scholars Academy</a> where I am also the Bayer Sponsored Fellow. I am also part of the working group <a href="http://www.paradoxoftheorganism.com/speakers.html/">The Paradox of the Organism</a>. Check out my research page for current and past projects!
 
 I received an M.Sc. at <a href="http://www.iitb.ac.in/">Indian Institute of Technology, Bombay</a> in 2018. I did my dissertation in the <a href="http://www.bio.iitb.ac.in/~patankar/">Molecular Parasitology Lab</a> under the guidance of <a href="http://www.bio.iitb.ac.in/people/faculty/patankar-s">Professor Swati Patankar</a>. My undergraduate degree was B.Sc. Biochemistry with Honors from University of Delhi.
+
 
 I am fluent in three languages - English, Hindi and Bengali. I have a working knowledge of Urdu (can understand and speak but not read and write). I primarily use R, Netlogo, and bash for programming.
 

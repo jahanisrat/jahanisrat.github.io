@@ -6,9 +6,15 @@ description:
 nav: true
 ---
 
-My research interests lie in the evolution of complex life via cooperation and conflict. Under this broad term, I am specifically focusing on development and maintenance of multicellularity for my Ph.D. thesis. For my experiments, I use the social amoeba *Dictyostelium discoidium*. In the long run, I want to study the implications of social interactions on the evolution of organismality and major transitions. I am also greatly intrigued by history and philosophy of science.
+My research interests broadly ask the question of how cooperation and conflict drive the evolution of complex life. Under this broad term, I am specifically focusing on development and maintenance of multicellularity for my Ph.D. thesis. For my experiments, I use the social amoeba *Dictyostelium discoidium*. My research is theoretically grounded in the principles of social evolution with scientific and philosophical implications for the major evolutionary transitions, germline vs somatic evolution, cell type development, and organismality. I am also greatly intrigued by history and culture of science.
+
+
 
 ##### **Projects towards my Ph.D. thesis**
+
+
+
+
 
 
 ##### **Previous Projects**
