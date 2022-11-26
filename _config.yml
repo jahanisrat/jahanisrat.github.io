@@ -13,6 +13,9 @@ footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: favicon.jpg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
 url:  https://jahanisrat.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -23,6 +26,15 @@ last_updated: false # set to true if you want to display last updated in the foo
 
 navbar_fixed: true
 footer_fixed: true
+
+# -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+rss_icon: true
+
 
 # Dimensions
 max_width: 800px
@@ -40,6 +52,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
+mastodon_username:
+gitlab_username: 
 github_username: jahanisrat # your GitHub user name
 twitter_username: _isratjahan # your Twitter handle
 linkedin_username: #zhuoran-qiao-269003153 # your LinkedIn user name
@@ -56,6 +70,7 @@ contact_note: >
     If you would like to reach me on my personal email - isratjahan505@gmail.com
 
 google_analytics: #UA-XXXXXXXXX # out your google-analytics code
+google_site_verification:  # your google-site-verification ID (Google Search Console)
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -86,6 +101,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
+news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5
 
 # -----------------------------------------------------------------------------
@@ -137,8 +153,8 @@ plugins:
 
 scholar:
 
-  last_name: Jahan
-  first_name: Israt
+  last_name: [Jahan]
+  first_name: [Israt]
 
   style: apa
   locale: en
@@ -156,16 +172,57 @@ scholar:
 
   query: "@*"
 
+# Maximum number of authors to be shown for each publication (more authors are visible on click)
+max_author_limit: 3  # leave blank to always show all authors
+more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
+
+# -----------------------------------------------------------------------------
+# Jekyll Link Attributes 
+# -----------------------------------------------------------------------------
+
+# These are the defaults
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+  exclude:
+
+
+# -----------------------------------------------------------------------------
+# Responsive WebP Images
+# -----------------------------------------------------------------------------
+
+imagemagick:
+  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+  output_formats:
+    webp: "-resize 800x"
+
+
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:  true
-enable_mansory:           true
-enable_math:              true
-enable_tooltips:          false
-enable_darkmode:          true
-show_social_icons:        true
+enable_google_analytics:    true
+enable_mansory:             true
+enable_google_verification: false  # enables google site verification
+enable_math:                true
+enable_tooltips:            false
+enable_darkmode:            true
+#enable_navbar_social:       false  # enables displaying social links in the
+show_social_icons:          true
+enable_project_categories:  true   # enables categorization of projects into multiple categories
+enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -198,4 +255,7 @@ mdb:
 popper:
   version: "2.4.4"
   integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
+medium_zoom:
+  version: "1.0.6"
+  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
 
