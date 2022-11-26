@@ -83,7 +83,7 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: false
+    output: true
     permalink: /projects/:path/
 
 news_limit: 5
@@ -112,14 +112,18 @@ exclude: [vendor]
 
 # Plug-ins
 plugins:
+  - jekyll-archives
+  - jekyll-diagrams
   - jekyll-email-protect
-  - jekyll-github-metadata
+  - jekyll-feed
+  - jekyll-imagemagick
+  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
-  # - bootstrap
-  # - material-sass
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -189,4 +193,3 @@ popper:
   version: "2.4.4"
   integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
 
-github: [metadata]
