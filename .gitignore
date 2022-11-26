@@ -3,3 +3,4 @@
 .DS_store
 .ruby-version
 .tweet-cache/
+_site/
