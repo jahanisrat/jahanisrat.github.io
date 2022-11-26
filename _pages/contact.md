@@ -1,6 +1,9 @@
 ---
-title: "Contact"
-date: "2019-08-18"
+layout: page
+title: Contact
+permalink: /contact/
+description:
+nav: true
 ---
 
 My work email at the moment:  
