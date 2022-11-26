@@ -1,0 +1,16 @@
+current directory: /Users/isratjahan/jahanisrat/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/Users/isratjahan/.rbenv/versions/3.1.2/bin/ruby -I /Users/isratjahan/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/isratjahan/jahanisrat/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20221125-25971-m21uvs sitelibdir\=./.gem.20221125-25971-m21uvs clean
+
+current directory: /Users/isratjahan/jahanisrat/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20221125-25971-m21uvs sitelibdir\=./.gem.20221125-25971-m21uvs
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/isratjahan/jahanisrat/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20221125-25971-m21uvs sitelibdir\=./.gem.20221125-25971-m21uvs install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20221125-25971-m21uvs
