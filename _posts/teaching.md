@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: 
 title: Talks & Teaching
 description:
-nav: true
+nav: false
 ---
 
 ## Conference and seminar presentations

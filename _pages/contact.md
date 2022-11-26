@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 description:
 nav: true
-nav_order: 6
+nav_order:
 ---
 
 My work email at the moment:  
