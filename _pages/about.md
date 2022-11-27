@@ -14,7 +14,8 @@ social: false  # includes social icons at the bottom of the page
 
 ---
 
-Hello! I am Israt (pronounced iss-ruh-t). I am a Ph.D. candidate in the <a href="https://strassmannandquellerlab.wordpress.com/">Strassmann-Queller Group</a>. My Ph.D. at WashU is generously funded for 5 years by the <a href="https://global.wustl.edu/mcdonnell-academy/">McDonnell International Scholars Academy</a> where I am also the Bayer Sponsored Fellow. I am also part of the working group <a href="http://www.paradoxoftheorganism.com/speakers.html/">The Paradox of the Organism</a>. Check out my research page for current and past projects!
+Hello! I am Israt (pronounced iss-ruh-t). 
+I am a Ph.D. candidate in the <a href="https://strassmannandquellerlab.wordpress.com/">Strassmann-Queller Group</a>. My Ph.D. at WashU is generously funded for 5 years by the <a href="https://global.wustl.edu/mcdonnell-academy/">McDonnell International Scholars Academy</a> where I am also the Bayer Sponsored Fellow. I am also part of the working group <a href="http://www.paradoxoftheorganism.com/speakers.html/">The Paradox of the Organism</a>. Check out my research page for current and past projects!
 
 I received an M.Sc. at <a href="http://www.iitb.ac.in/">Indian Institute of Technology, Bombay</a> in 2018. I did my dissertation in the <a href="http://www.bio.iitb.ac.in/~patankar/">Molecular Parasitology Lab</a> under the guidance of <a href="http://www.bio.iitb.ac.in/people/faculty/patankar-s">Professor Swati Patankar</a>. My undergraduate degree was B.Sc. Biochemistry with Honors from University of Delhi.
 
