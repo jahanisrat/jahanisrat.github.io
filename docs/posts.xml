@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Israt Jahan</title>
+<link>https://jahanisrat.github.io/posts.html</link>
+<atom:link href="https://jahanisrat.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description>The personal website of Israt Jahan</description>
+<image>
+<url>https://jahanisrat.github.io/favicon/favicon.ico</url>
+<title>Israt Jahan</title>
+<link>https://jahanisrat.github.io/posts.html</link>
+</image>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Sat, 11 May 2024 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Non Adaptive Incompatibilities in Aggregative Multicellularity</title>
+  <link>https://jahanisrat.github.io/post/paper3/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="download" class="level5">
+<h5 class="anchored" data-anchor-id="download">Download</h5>
+<p><a href="Jahan_incompatibilities_bioRxiv.pdf">PDF</a></p>
+<p><a href="https://github.com/jahanisrat/WolpertHypothesis">Code and data</a></p>
+</section>
+<section id="abstract" class="level5">
+<h5 class="anchored" data-anchor-id="abstract"><strong>Abstract</strong></h5>
+<p>Multicellular organisms that form by aggregation of cells arguably do not achieve high levels of complexity. Conflict among the cells is a widely accepted explanation for this, but an alternative hypothesis is that mixing cells of different genotypes leads to failures of coordination, which we call the ‘coordination hypothesis’. We empirically tested the coordination hypothesis in the social amoeba Dictyostelium discoideum. We mixed D. discoideum clones that had evolved in isolation for generations and accumulated mutations that have not been tested against each other by selection. To quantify the effect of incompatibilities, we measured performance in terms of the developmental traits of slug migration and spore production. Importantly, kin recognition incompatibilities were avoided by mixing lines evolved from the same ancestor under conditions that would not select for the evolution of de novo recognition. Our results show no evidence of incompatibilities in coordinated movement of slugs towards light in the social amoeba. Spore production was higher than expected in mixtures, in apparent contradiction to the coordination hypothesis. However, we found support for coordination incompatibilities in an interaction between migration and spore production: in mixtures, fewer cells succeeded at migrating and becoming spores.</p>
+</section>
+<section id="citation" class="level5">
+<h5 class="anchored" data-anchor-id="citation">Citation</h5>
+<p><em>forthcoming</em></p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>developmental incompatibilities</category>
+  <category>multicellularity</category>
+  <category>aggregation</category>
+  <category>complexity</category>
+  <category>dictyostelium</category>
+  <guid>https://jahanisrat.github.io/post/paper3/</guid>
+  <pubDate>Sat, 11 May 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://jahanisrat.github.io/post/paper3/figure1.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Reduced social function in experimentally evolved Dictyostelium discoideum implies selection for social conflict in nature</title>
+  <link>https://jahanisrat.github.io/post/paper2/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="download" class="level5">
+<h5 class="anchored" data-anchor-id="download">Download</h5>
+<p><a href="larsen_2023.pdf">PDF</a></p>
+</section>
+<section id="abstract" class="level5">
+<h5 class="anchored" data-anchor-id="abstract"><strong>Abstract</strong></h5>
+<p>Many microbes interact with one another, but the difficulty of directly observing these interactions in nature makes interpreting their adaptive value complicated. The social amoeba <em>Dictyostelium discoideum</em> forms aggregates wherein some cells are sacrificed for the benefit of others. Within chimaeric aggregates containing multiple unrelated lineages, cheaters can gain an advantage by undercontributing, but the extent to which wild <em>D. discoideum</em> has adapted to cheat is not fully clear. In this study, we experimentally evolved <em>D. discoideum</em> in an environment where there were no selective pressures to cheat or resist cheating in chimaeras. <em>Dictyostelium discoideum</em> lines grown in this environment evolved reduced competitiveness within chimaeric aggregates and reduced ability to migrate during the slug stage. By contrast, we did not observe a reduction in cell number, a trait for which selection was not relaxed. The observed loss of traits that our laboratory conditions had made irrelevant suggests that these traits were adaptations driven and maintained by selective pressures <em>D. discoideum</em> faces in its natural environment. Our results suggest that <em>D. discoideum</em> faces social conflict in nature, and illustrate a general approach that could be applied to searching for social or non-social adaptations in other microbes.</p>
+<hr>
+</section>
+<section id="citation" class="level5">
+<h5 class="anchored" data-anchor-id="citation">Citation</h5>
+<p>Larsen Tyler J., Jahan Israt, Brock Debra A., Strassmann Joan E. and Queller David C. 2023. “Reduced social function in experimentally evolved <em>Dictyostelium discoideum</em> implies selection for social conflict in nature.” <em>Proc. R. Soc. B</em> <strong>290</strong>: 20231722</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Larsen_2023</span>, </span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Reduced social function in experimentally evolved</span>
+<span id="cb1-3">            Dictyostelium discoideum implies selection for social conflict in nature}, </span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span>={290}, </span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">ISSN</span>={1471-2954}, </span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={http://dx.doi.org/10.1098/rspb.2023.1722}, </span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">DOI</span>={10.1098/rspb.2023.1722}, </span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span>={2013}, </span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span>={Proceedings of the Royal Society B:Biological Sciences}, </span>
+<span id="cb1-10">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={The Royal Society},</span>
+<span id="cb1-11">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Larsen, Tyler J. and Jahan, Israt and Brock, Debra A. and Strassmann, Joan E. and Queller, David C.}, </span>
+<span id="cb1-12">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2023}, </span>
+<span id="cb1-13">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>=<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">dec</span> </span>
+<span id="cb1-14">}</span></code></pre></div>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>social evolution</category>
+  <category>multicellularity</category>
+  <category>relaxed selection</category>
+  <category>experimental evolution</category>
+  <category>dictyostelium</category>
+  <guid>https://jahanisrat.github.io/post/paper2/</guid>
+  <pubDate>Mon, 11 Dec 2023 06:00:00 GMT</pubDate>
+  <media:content url="https://jahanisrat.github.io/post/paper2/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Group maintenance in aggregative multicellularity</title>
+  <link>https://jahanisrat.github.io/post/paper1/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="download" class="level5">
+<h5 class="anchored" data-anchor-id="download">Download</h5>
+<p><a href="paper1.pdf">PDF</a></p>
+</section>
+<section id="abstract" class="level5">
+<h5 class="anchored" data-anchor-id="abstract"><strong>Abstract</strong></h5>
+<p>Aggregative multicellularity occurs when dispersed cells join together to form a highly cooperative unit, in contrast to clonal multicellular organisms formed by cells that remain in contact after descent from a single cell. Because aggregative groups may include non-relatives, aggregative multicellular organisms should be particularly vulnerable to the rise of cheater cells that take advantage of social goods without paying the costs, reducing cooperation, and even threatening extinction. We review the key mechanisms by which aggregative multicellular organisms control cheaters with a focus on the best studied aggregative organisms, <em>Myxococcus xanthus</em> and <em>Dictyostelium discoideum</em>. These include various passive and active mechanisms to maintain high relatedness within aggregates, to enforce cooperation on aggregate members, and the costs of cheating on other key functions. Ultimately, aggregative multicellular organisms are not that different from clonal organisms descended from a single cell.</p>
+<div id="fig-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://jahanisrat.github.io/post/paper1/paper1.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Aggregative multicellularity in the social amoeba <em>Dictyostelium discoideum</em> and the pack hunting bacteria <em>Myxococcus xanthus</em>
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="citation" class="level5">
+<h5 class="anchored" data-anchor-id="citation">Citation</h5>
+<p>Jahan, Israt, Tyler Larsen, Joan E. Strassmann, and David C. Queller. “Group maintenance in aggregative multicellularity.” In The Evolution of Multicellularity, pp.&nbsp;111-134. CRC Press, 2022.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@incollection</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">jahan2022group</span>,</span>
+<span id="cb1-2">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Group maintenance in aggregative multicellularity},</span>
+<span id="cb1-3">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Jahan, Israt and Larsen, Tyler and Strassmann, Joan E and Queller, David C},</span>
+<span id="cb1-4">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">booktitle</span>={The Evolution of Multicellularity},</span>
+<span id="cb1-5">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span>={111--134},</span>
+<span id="cb1-6">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2022},</span>
+<span id="cb1-7">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={CRC Press}</span>
+<span id="cb1-8">}</span></code></pre></div>
+</section>
+<section id="related-material" class="level5">
+<h5 class="anchored" data-anchor-id="related-material">Related material</h5>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>multicellularity</category>
+  <category>social evolution</category>
+  <category>myxococcus</category>
+  <category>dictyostelium</category>
+  <category>major transitions</category>
+  <guid>https://jahanisrat.github.io/post/paper1/</guid>
+  <pubDate>Wed, 08 Jun 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://jahanisrat.github.io/post/paper1/cover1.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

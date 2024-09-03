@@ -1,0 +1,324 @@
+[
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Israt Jahan",
+    "section": "",
+    "text": "debkeepr\n\n\nAnalysis of historical non-decimal currencies and value systems that use either tripartite or tetrapartite systems such as that of pounds, shillings, and pence.\n\n\n\n\n\n\n\n\n\n\n\nThe Estate of Jan della Faille de Oude, 1582–1617\n\n\nA Digital Humanities project on the account books of the estate of an early modern merchant using R\n\n\n\n\n\n\n\n\n\n\n\nThe Correspondence Network of Daniel van der Meulen, 1578–1591\n\n\nA digital humanities project of an early modern merchant’s correspondence network using GIS techniques with R\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "This browser does not support PDFs. Please download the PDF to view it: &lt;a href=\"content/cv.pdf\"&gt;Download PDF&lt;/a&gt;\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Key Publications",
+    "section": "",
+    "text": "Non Adaptive Incompatibilities in Aggregative Multicellularity\n\n\n\n\n\n\ndevelopmental incompatibilities\n\n\nmulticellularity\n\n\naggregation\n\n\ncomplexity\n\n\ndictyostelium\n\n\n\nThis paper shows that developmental incompatibilities may evolve readily but their fitness costs may be dependent on whether selection favors migration or producing more spores\n\n\n\n\n\n11 May 2024\n\n\n\n\n\n\n\n\n\n\n\n\nReduced social function in experimentally evolved Dictyostelium discoideum implies selection for social conflict in nature\n\n\nWe tested whether cheating is adaptive in social amoeba in the wild. Published in Proc. Roy. Soc. B, 2023.\n\n\n\nsocial evolution\n\n\nmulticellularity\n\n\nrelaxed selection\n\n\nexperimental evolution\n\n\ndictyostelium\n\n\n\nThis paper shows that Dictyostelium discoideum is under selection for cheating in nature using experimentally evolved lineages that were grown under relaxed selection for sociality\n\n\n\n\n\n11 December 2023\n\n\n\n\n\n\n\n\n\n\n\n\nGroup maintenance in aggregative multicellularity\n\n\nThis paper was published as a chapter in the book Evolution of Multicellularity edited by Matthew Herron, Peter Conlin, and William Ratcliff.\n\n\n\nmulticellularity\n\n\nsocial evolution\n\n\nmyxococcus\n\n\ndictyostelium\n\n\nmajor transitions\n\n\n\nWe showed that aggregative organisms and clonal organisms are quite alike because of active and passive cheating control mechanisms.\n\n\n\n\n\n8 June 2022\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "project/df-inheritance.html",
+    "href": "project/df-inheritance.html",
+    "title": "The Estate of Jan della Faille de Oude, 1582–1617",
+    "section": "",
+    "text": "Figure 1"
+  },
+  {
+    "objectID": "project/df-inheritance.html#footnotes",
+    "href": "project/df-inheritance.html#footnotes",
+    "title": "The Estate of Jan della Faille de Oude, 1582–1617",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFor a complete discussion of Jan de Oude’s background and trade see Wilfrid Brulez, De Firma Della Faille en de internationale handel van Vlaamse firma’s in de 16e eeuw (Brussels: Paleis der Academièen, 1959).↩︎"
+  },
+  {
+    "objectID": "project/dvdm-correspondence.html",
+    "href": "project/dvdm-correspondence.html",
+    "title": "The Correspondence Network of Daniel van der Meulen, 1578–1591",
+    "section": "",
+    "text": "Visualizations\n\nShiny version of the leaflet map that includes real-time filtering of dates\n\n\n\nBackground to Daniel van der Meulen\nLong-distance trade in the early modern period could not be conducted without correspondence networks and the exchange of letters. Merchants continued to travel in order to manage their affairs, but elite merchants rarely if ever travelled with their own goods. Instead of escorting goods from place to place, merchants organized and supervised the purchase, transportation, and sale of goods through correspondence with factors spread throughout the trade routes of Europe and beyond. This more sedentary system of exchange enabled the rapid growth of trade on an individual and European-wide basis, but it also necessitated that merchants create and maintain wide networks of competent and trustworthy correspondents willing and able to follow the directions of merchants who might be many hundreds of miles away.\nDaniel van der Meulen (1554–1600), the fifth child and youngest son of Jan van der Meulen and Elizabeth Zeghers, was born in Antwerp in 1554. The Van der Meulens participated in regional trade from Antwerp, mainly with the fairs in Frankfurt and Strassbourg. The prospects of the Van der Meulens improved over the course of Daniel’s childhood, especially after Daniel’s mother took over management of the family’s trading activities following the death of her husband around 1563. In the 1580s, Daniel and his older brother Andries both married into the mercantile elite of Antwerp, enabling the Van der Meulens to invest in long-distance trade. Closely associated with the rebel side of the Dutch Revolt, the Van der Meulens left Antwerp in 1585 after the city fell to Spanish forces. Daniel first spent six years in Bremen before relocating to the university city of Leiden in September 1591. By the time of Daniel’s death from the plague in 1600, his trading activities had expanded well beyond the European continent to involve the western coast of Africa and exploratory ventures to the Indies that predated the founding of the Dutch East Indies Company.\nThe large collection of approximately 6,600 letters that Daniel van der Meulen received between 1578 and 1600 — housed in the Daniel van der Meulen Archive at the municipal archive in Leiden — provides a rare opportunity to investigate the development of a mercantile correspondence network at an early stage in the maturation of the Atlantic economy. The collection can be divided into two periods: before and after Daniel’s move to Leiden in 1591. From 1578 — the date of the first letter addressed to Daniel extant in the archive — until the end of 1591 Daniel received 442 letters. After moving to Leiden, Daniel became more independent from his siblings and developed a much more robust and active correspondence network, receiving well over 6,000 letters in a period of just under nine years. The current state of the project incorporates the letters sent to Daniel up to the end of 1591, but data entry on the remaining letters is underway.\n\n\nMethodology\nThis project uses the R programming language to analyze and visualize Daniel’s correspondence network. The above map of the letters from 1578–1591 provides an example. In addition to static maps such as the one above, the project will also include interactive maps that enable the viewer to investigate the data on their own. See the links to some of the visualizations above. Further analysis and visualizations will be described on the blog. In addition, work is underway on building a website dedicated to the analysis of Daniel’s correspondence network.\nThe contents of this project are under active development. You can check out the GitHub page to see the progress. Feedback on the project is welcome. I can be reached via email, Twitter, or through an issue on GitHub.\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "talks/2020-10-09-confucius-institute-fall-seminar/index.html",
+    "href": "talks/2020-10-09-confucius-institute-fall-seminar/index.html",
+    "title": "U. Albany Confucius Institute Fall 2020 Seminar on US-China Relations in the 21st Century",
+    "section": "",
+    "text": "Barry Naughton (Sokwanlok Chair of Chinese International Affairs at the School of Global Policy and Strategy, UCSD) and I kicked off the U. of Albany Confucius Institute Fall 2020 Seminar Series on “US-China Relations in the 21st Century” with a discussion about industrial policy and low-carbon energy technologies in China. In his presentation titled, “China’s Industrial Policy: New Technological Revolution or Old-fashioned Protectionism?”, Professor Naughton highlighted some of the recent major technology and industrial policy changes under President Xi and the implications for the U.S. In my talk titled, “China’s key role in scaling low carbon energy technologies,” I discussed the critical role China has played in scaling up the mass production of low-carbon energy technologies, such as solar photovoltaic cells and lithium-ion batteries, highlighting key points from my related paper in Science with Jonas Nahm.\n\n\n Slides as PDF\n\n\n Science Paper\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "talks/2021-07-06-useR-healthy-hands/index.html",
+    "href": "talks/2021-07-06-useR-healthy-hands/index.html",
+    "title": "Healthier ❤️ & Happier 😄 Hands 🙌",
+    "section": "",
+    "text": "I prepared an “Elevator Pitch” (aka lightning talk) for the 2021 useR! Conference where I discussed a quick overview of software and hardware solutions for more ergonomic typing. The recording and slides are below.\nSee also my related blog post for more details on the topics covered in the talk.\n\nTalk\n\n\n\n\nSlides\nMy slides were built using the {xaringan} R package. You can see the source code for the slides here.\n\n\n Full screen slides\n\n\n Slides as PDF\n\n\nKeyboard Shortcuts for Slides:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "talks/2022-05-06-sawtooth-conf-cbctools/index.html",
+    "href": "talks/2022-05-06-sawtooth-conf-cbctools/index.html",
+    "title": "The cbcTools Package: Tools for Designing and Testing Choice-Based Conjoint Surveys in R",
+    "section": "",
+    "text": "I gave a talk at the Sawtooth Software Conference in Orlando, FL, on May 06, 2022. The talk is titled, “The {cbcTools} Package: Tools for Designing and Testing Choice-Based Conjoint Surveys in R”.\nLearn more about the {cbcTools} package here: https://jhelvy.github.io/cbcTools/\n\nTalk\n\n\n\n\nSlides\nMy slides were built using the {xaringan} R package. You can see the source code for the slides here.\n\n\n Full screen slides\n\n\n Slides as PDF\n\n\nKeyboard Shortcuts for Slides:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "talks/2021-12-01-isa-battery-webinar/index.html",
+    "href": "talks/2021-12-01-isa-battery-webinar/index.html",
+    "title": "ISA Industrial Policy Webinar Series: Taking Charge",
+    "section": "",
+    "text": "On December 1, 2021, I had the honor of moderating the Industry Studies Association (ISA) webinar on the future of batteries for electric vehicles, as part of its ongoing webinar series on industrial policy. You can watch the recording below.\nAbout the webinar:\nThe auto industry is on the cusp of its greatest transformation in more than a century, shifting from internal combustion engines to electric motors powered by lithium-ion batteries. China, which already plays an important role in global auto supply chains, has been the first mover in this transformation, sparking concerns in the United States and elsewhere. This session will explore the United States’ proposed response to this challenge and its profound links to both long-run economic prosperity and the future of the planet.\nModerator: John Paul Helveston, Assistant Professor, Engineering Management & Systems Engineering, George Washington University\nAdministration Presenter: Susan Helper, Senior Economist, White House Council of Economic Advisers\nDiscussants:\n\nGeorge W. Crabtree, Director, Joint Center for Energy Storage Research, Argonne National Laboratory\nKristin Dziczek, Senior Vice President – Research, Center for Automotive Research\nJohn Paul MacDuffie, President, Industry Studies Association, and Professor of Management, University of Pennsylvania\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "post/paper3/index.html",
+    "href": "post/paper3/index.html",
+    "title": "Non Adaptive Incompatibilities in Aggregative Multicellularity",
+    "section": "",
+    "text": "Download\nPDF\nCode and data\n\n\nAbstract\nMulticellular organisms that form by aggregation of cells arguably do not achieve high levels of complexity. Conflict among the cells is a widely accepted explanation for this, but an alternative hypothesis is that mixing cells of different genotypes leads to failures of coordination, which we call the ‘coordination hypothesis’. We empirically tested the coordination hypothesis in the social amoeba Dictyostelium discoideum. We mixed D. discoideum clones that had evolved in isolation for generations and accumulated mutations that have not been tested against each other by selection. To quantify the effect of incompatibilities, we measured performance in terms of the developmental traits of slug migration and spore production. Importantly, kin recognition incompatibilities were avoided by mixing lines evolved from the same ancestor under conditions that would not select for the evolution of de novo recognition. Our results show no evidence of incompatibilities in coordinated movement of slugs towards light in the social amoeba. Spore production was higher than expected in mixtures, in apparent contradiction to the coordination hypothesis. However, we found support for coordination incompatibilities in an interaction between migration and spore production: in mixtures, fewer cells succeeded at migrating and becoming spores.\n\n\nCitation\nforthcoming\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "course/digital-history.html",
+    "href": "course/digital-history.html",
+    "title": "Digital History for Public History",
+    "section": "",
+    "text": "Course website and syllabus\nThis course is designed to introduce students to some of the tools of Digital Humanities/History with an emphasis on using open source technology that puts you in control. The course focuses on methodologies. It begins with the basics of organizing primary and secondary sources and your notes on them. We will then give an introduction to data analysis and visualization using the R programming language, culminating in the creation of your own website. Along the way we will be learning the basics of using the command line and learn about git and using GitHub for publishing websites and to become acquainted with the practices of reproducible research."
+  },
+  {
+    "objectID": "course/digital-history.html#learning-goals",
+    "href": "course/digital-history.html#learning-goals",
+    "title": "Digital History for Public History",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nDevelop an expanded awareness of the open source tools available for conducting historical research and making that research widely available to the public.\nBe comfortable writing in plain text and using Markdown.\nUnderstand the uses and drawbacks of spreadsheets and how to organize rectangular data.\nBe comfortable with the basics of the command line.\nBe able to import, explore, wrangle, and visualize data in R.\nBe able to write R scripts and document your code in quarto documents.\nGain familiarity with the tidyverse packages in R.\nGain experience with the possibilities for text, network, and spatial analysis available through various R packages.\nBe comfortable with using git and GitHub for your own work or collaboration with others.\nCreate a website using open source tools."
+  },
+  {
+    "objectID": "course/digital-history.html#schedule",
+    "href": "course/digital-history.html#schedule",
+    "title": "Digital History for Public History",
+    "section": "Schedule",
+    "text": "Schedule\n\nIntroduction\nDigital History and Public History\nOrganizing resources\nPlain text and markdown\nData and an intro to the command line\nIntro to R and RStudio\nData wrangling\nVisualization with ggplot2\nVersion control with Git and GitHub\nMaking documents and websites with Quarto\nReview and website workshop\nSpatial analysis\nNetwork analysis\nWeb design and visualization\nConclusion"
+  },
+  {
+    "objectID": "course/modern-revolution.html",
+    "href": "course/modern-revolution.html",
+    "title": "Revolution in Modern Europe",
+    "section": "",
+    "text": "History 1204 examines the dynamic transformation of Europe and the world over the past five hundred years, emphasizing periods of rapid and momentous changes that have been seen as revolutionary by either contemporaries or historians. From the closing of the medieval world and the waning of the Renaissance, the course commences with the wide-ranging transformations brought about by the discovery of the Americas and the splintering of the Western Church with the Reformation. The course will investigate periods or political, social, cultural, and economic upheaval, highlighting the experience of contemporaries and how the concept of revolution has changed from the sixteenth century up to the twenty-first century. Through both primary sources and the work of historians, we will pay close attention to debates over the meaning and nature of rights that were supposed to be held by individuals. The topic of revolution will also lead to discussions of the ways that people have conceptualized time in the past and how people have looked to either the past or the future for inspiration in thinking about their present actions. At all points emphasis will be placed on historical thinking and trying to better understand past cultures rather than memorization of facts, figures, and dates.\n\nSyllabus PDF\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "course/europe-and-world.html",
+    "href": "course/europe-and-world.html",
+    "title": "Europe and the World 1200–1648",
+    "section": "",
+    "text": "This course examines the dynamic transformation of Europe across four centuries of social, cultural, political, and economic change. The course begins with the development of an urbanized Europe increasingly linked by commercial exchanges but still dominated by a rural society of lords and peasants. We follow the changing social relations and growth of state and religious institutions in what is known as the High Middle Ages until its close with the demographic and political crisis of the fourteenth century brought about by famine, plague, and seemingly endless wars. The second half of the course traces the recovery and spectacular expansion of Europe in the world in the early modern period from the cultural efflorescence of the Renaissance to the creation of direct trade networks connecting Asia, Africa, Europe, and the Americas. European overseas expansion occurred as political division hardened and Western Christendom split with the Reformation, leading to the creation of territorial states and wars that lasted until the end of our period. Throughout the course we will emphasize social and cultural changes, investigating the lives of common women and men as much as princes and the nobility. At all points emphasis will be placed on historical thinking and trying to better understand past cultures rather than memorization of facts and figures.\nOver such a broad chronological span it is not possible to cover all issues of this interesting period. The course will focus on key developments that highlight Europe’s interactions with the wider world. These include the institutionalization of political and religious authority and the creation of the fiscal-military state; the development of commercial capitalism in which the economic and cultural center of Europe migrated from the Mediterranean to the Atlantic; and the gradual change from a cultural perspective that emphasized truth in universals to a society that increasingly accepted the singular and particular.\n\nSyllabus PDF\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "course/freemasonry-civil-society-democracy.html",
+    "href": "course/freemasonry-civil-society-democracy.html",
+    "title": "Freemasonry, Civil Society, and Democracy in 18th-Century Europe and America",
+    "section": "",
+    "text": "This course investigates Freemasonry from its European origins in the Renaissance and the Scientific Revolution to its role in the American and French Revolutions. It begins by discussing the roots of Freemasonry in the radical thought of early modern Europe. A new mechanical philosophy emerged from the Scientific Revolution which brought with it the belief that the world was best understood mathematically as matter in motion. This new mechanical natural philosophy provided the basis for both moderate and radical strands of the intellectual movement known as the Enlightenment. Mainstream Freemasonry, begun with the foundation of the Grand Lodge in London in 1717, was intimately tied to the Moderate Enlightenment ideals associated with Newtonian science and the rule of a constitutional monarchy. However, Freemasonry also provided radicals, who espoused republican and sometimes even anti-Christian ideas, with a space to practice ritual fraternalism. In this course we will see how radical mechanical philosophy provided a foundation for principles of religious toleration, fraternity, and democracy, which were to be vital for the establishment of Freemasonry in Europe and America. The course concludes by looking at the ways that cosmopolitanism and exclusion were inextricably linked within Freemasonry by investigating the beginnings of African-American Freemasonry in the early American Republic.\n\nSyllabus PDF\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "course/renaissance-s21.html",
+    "href": "course/renaissance-s21.html",
+    "title": "The Italian Renaissance",
+    "section": "",
+    "text": "History 3334 introduces students to one of the most distinctive time periods in European history, the Italian Renaissance. The course concentrates on the Italian peninsula from the rise of urban communes in the 12th century to Spanish and Imperial political dominance in the 16th century. The course will investigate a variety of actions, ideas, and beliefs through primary sources and examine a number of ways that historians have attempted to understand this exciting time period. The course is divided into five sections. The first section discusses late medieval Italy. It discusses the rise of Italian cities and trade in the Mediterranean from the 11th century to the demographic crisis caused by the outbreak of the Black Death in 1347 and the reoccurrences of the plague in the second half of the 14th century. The second section of the couse focuses on the quattrocento, highlighting the urban nature of the Renaissance. The third section of the course moves to questions about the state in the Renaissance and is centered around the reading of Machiavelli’s The Prince and selections from The Discourses. The fourth section investigates the changing world from the late 15th century as European exploration expanded and learning increasingly turned from the reading of ancient texts to the study of nature. The final section discusses the waning of the Renaissance and takes on the question of periodization and defining the Renaissance.\nThroughout the five sections primary sources, secondary literature, and the lectures will focus on questions of the urban nature of the Renaissance, the increased interest in the recovery of the culture of ancient Rome, and the significance of debates over social, political, and cultural legitimacy.\nThis course was taught in Spring 2021 during the Covid-19 pandemic and was conducted remotely. Lectures were delivered by video and there was a 50-minute discussion each week over Zoom.\n\nSyllabus PDF\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Google Scholar ORCID Research Gate"
+  },
+  {
+    "objectID": "research.html#working-papersunder-review",
+    "href": "research.html#working-papersunder-review",
+    "title": "Research",
+    "section": "Working Papers/Under Review",
+    "text": "Working Papers/Under Review\n\n\n\n\n \nJahan, Israt, Scott, Trey J., Strassmann, Joan E., & Queller, David C. (2024) “Testing the coordination hypothesis: incompatibilities in the absence of a single-cell bottleneck in an experimentally evolved social amoeba” bioRxiv.  DOI: 10.1101/2024.05.12.593719\n\n \n  \n\n View PDF Code & Data\n\n  \n    Haiku Summary\n    \n    \n      Isolated paths,\n      •\n      Mutations weave their stories,\n      •\n      Genotypes collide.\n    \n  \n\n\n \nJahan, Israt, Scott, Trey J., Strassmann, Joan E., & Queller, David C. (2024) “Early constraints and progressive divergence in developmental patterning of the social amoeba Dictyostelium discoideum” In Prep for Science Advances.\n\n \n  \n\n\n\n  \n    \n      Genomic secrets,\n      •\n      Phylostratigraphy sings,\n      •\n      A map of ages.\n    \n  \n\n\n \nJahan, Israt, Larsen, Tyler J., Strassmann, Joan E., & Queller, David C. (2024) “Symbiont history explains phenotypic trait evolution under relaxed selection in host Dictyostelium discoideum” In Prep for Microbiology Society.\n\n \n  \n\n\n\n  \n    \n      In every spore cast,\n      •\n      In every slug?s gentle crawl,\n      •\n      History breathes deep.\n    \n  \n\n\n \nJahan, Israt, Scott, Trey J., Strassmann, Joan E., & Queller, David C. (2025) “Novel kin selected genes have increased pleiotropy in social amoeba” In Prep for Genome Biology and Evolution."
+  },
+  {
+    "objectID": "research.html#peer-reviewed-journal-articles",
+    "href": "research.html#peer-reviewed-journal-articles",
+    "title": "Research",
+    "section": "Peer-Reviewed Journal Articles",
+    "text": "Peer-Reviewed Journal Articles\n\n\n\n\n \nLarsen, Tyler J., Jahan, Israt, Brock, Debra A.,  Strassmann, Joan E., & Queller, David C. (2023) “Reduced social function in experimentally evolved Dictyostelium discoideum implies selection for social conflict in nature” Proceedings of the Royal Society B: Biological Sciences.  DOI: 10.1098/rspb.2023.1722\n\n \n  \n\n Summary View PDF Scholar\n\n  \n    Haiku Summary\n    \n    \n      Evolved in stillness,\n      •\n      No pressure to deceive here,\n      •\n      Yet traits start to fade.\n    \n  \n\n\n \nJahan, Israt, Larsen, Tyler J., Strassmann, Joan E., & Queller, David C. (2022) “Group Maintenance in Aggregative Multicellularity” In The Evolution of Multicellularity.  DOI: 10.1201/9780429351907-9\n\n \n  \n\n Summary View PDF RG\n\n  \n    \n      Though different in form,\n      •\n      Clonal buds and aggregants,\n      •\n      Share a common fate."
+  },
+  {
+    "objectID": "research.html#theses",
+    "href": "research.html#theses",
+    "title": "Research",
+    "section": "Theses",
+    "text": "Theses\n\n\n\n\n \nJahan, Israt (2018) “Do membrane proteins travel to the apicoplast in the apicomplexan parasites via the Golgi? - A biological and evolutionary study.” M.Sc. Dissertation. Indian Institute of Technology, Bombay, India.\n\n \n  \n\n PDF RG"
+  },
+  {
+    "objectID": "research/2023-proceedings-of-the-royal-society-b-biological-sciences/index.html",
+    "href": "research/2023-proceedings-of-the-royal-society-b-biological-sciences/index.html",
+    "title": "Reduced social function in experimentally evolved Dictyostelium discoideum implies selection for social conflict in nature",
+    "section": "",
+    "text": "Reduced social function in experimentally evolved Dictyostelium discoideum implies selection for social conflict in nature\n\n\n\n\nHaiku Summary\n\n\n\n\n\n\n Larsen, Tyler J., Jahan, Israt, Brock, Debra A.,  Strassmann, Joan E., & Queller, David C. (2023) “Reduced social function in experimentally evolved Dictyostelium discoideum implies selection for social conflict in nature” Proceedings of the Royal Society B: Biological Sciences.  DOI: 10.1098/rspb.2023.1722\n \n  \n\n View PDF Scholar\n\n  \n    \n      Evolved in stillness,\n      •\n      No pressure to deceive here,\n      •\n      Yet traits start to fade.\n    \n  \n\n\n\n  Key Figure  \n\n\n\nAbstract:\nMany microbes interact with one another, but the difficulty of directly observing these interactions in nature makes interpreting their adaptive value complicated. The social amoeba Dictyostelium discoideum forms aggregates wherein some cells are sacrificed for the benefit of others. Within chimaeric aggregates containing multiple unrelated lineages, cheaters can gain an advantage by undercontributing, but the extent to which wild D. discoideum has adapted to cheat is not fully clear. In this study, we experimentally evolved D. discoideum in an environment where there were no selective pressures to cheat or resist cheating in chimaeras._Dictyostelium discoideum_ lines grown in this environment evolved reduced competitiveness within chimaeric aggregates and reduced ability to migrate during the slug stage. By contrast, we did not observe a reduction in cell number, a trait for which selection was not relaxed. The observed loss of traits that our laboratory conditions had made irrelevant suggests that these traits were adaptations driven and maintained by selective pressures D. discoideum faces in its natural environment. Our results suggest that D. discoideum faces social conflict in nature, and illustrate a general approach that could be applied to searching for social or non-social adaptations in other microbes.\nBibtex:\n\narticle{Larsen_2023,  title={Reduced social function in experimentally evolved Dictyostelium discoideum implies selection for social conflict in nature}, volume={290},  ISSN={1471-2954}, url={http://dx.doi.org/10.1098/rspb.2023.1722}, DOI={10.1098/rspb.2023.1722}, number={2013},  journal={Proceedings of the Royal Society B:Biological Sciences}, publisher={The Royal Society}, author={Larsen, Tyler J. and Jahan, Israt and Brock, Debra A. and Strassmann, Joan E. and Queller, David C.},  year={2023}}\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "research/2022-In-The-Evolution-of-Multicellularity/index.html",
+    "href": "research/2022-In-The-Evolution-of-Multicellularity/index.html",
+    "title": "Group maintenance in aggregative multicellularity",
+    "section": "",
+    "text": "Download\nPDF\n\n\n\nAbstract\nAggregative multicellularity occurs when dispersed cells join together to form a highly cooperative unit, in contrast to clonal multicellular organisms formed by cells that remain in contact after descent from a single cell. Because aggregative groups may include non-relatives, aggregative multicellular organisms should be particularly vulnerable to the rise of cheater cells that take advantage of social goods without paying the costs, reducing cooperation, and even threatening extinction. We review the key mechanisms by which aggregative multicellular organisms control cheaters with a focus on the best studied aggregative organisms, Myxococcus xanthus and Dictyostelium discoideum. These include various passive and active mechanisms to maintain high relatedness within aggregates, to enforce cooperation on aggregate members, and the costs of cheating on other key functions. Ultimately, aggregative multicellular organisms are not that different from clonal organisms descended from a single cell.\n\n\n\n\nCitation\nJahan, Israt, Tyler Larsen, Joan E. Strassmann, and David C. Queller. “Group maintenance in aggregative multicellularity.” In The Evolution of Multicellularity, pp. 111-134. CRC Press, 2022.\n@incollection{jahan2022group,\n  title={Group maintenance in aggregative multicellularity},\n  author={Jahan, Israt and Larsen, Tyler and Strassmann, Joan E and Queller, David C},\n  booktitle={The Evolution of Multicellularity},\n  pages={111--134},\n  year={2022},\n  publisher={CRC Press}\n}\n\n\n\nRelated material\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research paper summaries",
+    "section": "",
+    "text": "For clipboard in bibtex\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGroup maintenance in aggregative multicellularity\n\n\n\n\n\nThis paper was published as a chapter in the book Evolution of Multicellularity edited by Matthew Herron, Peter Conlin, and William Ratcliff.\n\n\n\n\n\n2022-06-08\n\n\nWe showed that aggregative organisms and clonal organisms are quite alike because of active and passive cheating control mechanisms.\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "BIO 472: Behavioral Ecology\nInstructor: Professor Joan Strassmann\nThis was a graduate level course on the evolution of animal behavior taught by Professor Joan Strassmann. I was one of the three assistants to the instructor and led a discussion section of 13 upper level undergraduate students. We focused on social behaviors like aggression, mating, parental care, communication, and the complexities of living in groups and families. Throughout the semester, students contributed to Wikipedia pages and worked on writing and rewriting major entries of different Dipteran fly species.\n\n\nOne of my student’s article on Drosophila subobscura was nominated for the badge of a ‘Good Article’ for its factual accuracy and substantial improvement.\n\n\nWikipedia Articles\n\nCommon green bottle fly\nBlack salt marsh mosquito\nCaribbean fruit fly\nBlack blow fly\n\n\n\n\n\n\n\n\n\n\nR for Statistical Analysis of Biological Data\nThis is a self-guided tutorial (WIP) for analyzing data from microbial fitness assays, including data input/output, data wrangling, and data visualization in R.\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "course/modern-world-history.html",
+    "href": "course/modern-world-history.html",
+    "title": "Modern World History",
+    "section": "",
+    "text": "History 1050 begins at the dawn of the truly global world. When Christopher Columbus reached the Americas in 1492 the world’s cultures became connected in a way that changed the lives of people on all inhabited continents. Beginning in the sixteenth century, people in the Americas, Europe, Africa, Asia, and Oceania became increasingly interconnected and dependent upon each other. Through expanding empires and developing global trade networks, individuals across the world came into contact with new kinds of people, ideas, beliefs, animals, plants, food, and manufactured goods. This course will discuss these early interactions and the consequences of this interconnected world up to the early twenty-first century through a world historical lens that will focus on the experience of non-Western peoples. Through both secondary literature and primary sources, the course will investigate themes such as the development of capitalism, the process of industrialization, and the rise and decline of empires, while constantly examining cultural changes that affected the common woman and man as much as kings and queens. At all points emphasis will be placed on historical thinking and trying to better understand past cultures rather than memorization of facts, figures, and dates.\n\nSyllabus PDF\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "course/western-civ-s16.html",
+    "href": "course/western-civ-s16.html",
+    "title": "Introduction to Western Civilization: Circa A.D. 843 to circa 1715",
+    "section": "",
+    "text": "This second in the series of three courses on Western Civilization covers a period of almost 1,000 years from the disintegration of the Carolingian Empire, created during the reign of Charlemagne, to the death of Louis XIV, the Sun King and builder of the magnificent palace of Versailles. It was during this period — from 843 to 1715 — that the concept of Europe developed and the structures of modern Western society were put in motion. The course covers the main social, political, cultural, and economic trends of medieval and early modern Europe, while also introducing students to forms of historical thinking. The course is divided into two parts. The first part covers medieval Europe, which came to a close with the flourishing of the Renaissance and the discovery of the New World. The second part of the course discusses the early modern world created by the Age of Discovery, the Reformation, and the Scientific Revolution in which the antecedents of modern Europe were constructed.\n\nSyllabus PDF\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "course/virtue-and-commerce-s16.html",
+    "href": "course/virtue-and-commerce-s16.html",
+    "title": "Virtue and Commerce: Republicanism and the Development of the Global Economy",
+    "section": "",
+    "text": "The financial crash of 2008 brought questions of virtue and commerce to the forefront of the American consciousness as people grappled with the causes of the financial collapse. This course examines the history of virtue in the context of the expanding global economy from the Renaissance to the early twentieth century. The Italian Renaissance was made possible by both an expansion of industry, banking, and trade and a rediscovery of ancient Greek and Latin texts. As much as the economic expansion might be seen to coincide with the flourishing intellectual and artistic accomplishments of the period, many Renaissance thinkers perceived commerce to be in tension with the ancient conception of republican virtue. The course follows the growth of the European economy from the Italian Peninsula in the sixteenth century to the Dutch Republic in the seventeenth century, the development of colonial and worldwide economies in the eighteenth century, and the process of industrialization in the nineteenth century. We track the changing understandings of virtue and commerce through the writings of leading theorists of the day, including James Harrington, Bernard Mandeville, Montesquieu, Jean-Jacques Rousseau, and Max Weber.\n\nSyllabus PDF\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "course/european-empires.html",
+    "href": "course/european-empires.html",
+    "title": "European Empires, Exploration, and Exchange since 1500",
+    "section": "",
+    "text": "History 1200 examines the dynamic transformation of Europe and Europe’s interactions with the world across four centuries of social, cultural, political, and economic change. The course begins with Europe on the precipice of the Age of Discovery, a remarkable period in which the European world expanded beyond the confines of the Mediterranean to encompass direct contact with the riches of the Indian Ocean and the discovery of — to the Europeans — the New World of the Americas. The first half of the course explores the consequences of the Age of Discovery for Europeans and the peoples they encountered. The second half of the course takes on the question of the Great Divergence, or how Europe came to be politically and economically dominant on the world stage by the early twentieth century, investigating the ways industrialization and revolutions across the Atlantic world fundamentally altered and disrupted political and social structures in Europe and across the globe.\nThe course will focus on developments that highlight momentous changes in European society brought on by European interactions in the world: the significance of inclusion and exclusion in the development of cultural and political power, the transition from commercial to industrial capitalism, and the gradual and incomplete movement from a corporate hierarchical society to one based on the rights of autonomous individuals. Throughout the course we will draw attention to social and cultural changes, investigating the lives of common women and men as much as kings and the nobility. At all points emphasis will be placed on historical thinking and trying to better understand past cultures rather than memorization of facts, figures, and dates.\n\nSyllabus PDF\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "course/ancient-history.html",
+    "href": "course/ancient-history.html",
+    "title": "Ancient History",
+    "section": "",
+    "text": "History 1024: Ancient History introduces students to the civilizations and peoples of the western ancient world, incorporating the peoples of the Mediterranean, the Near East, and outlying regions from the development of cities and invention of writing in Mesopotamia around 3,000 BCE to the fall of the western Roman Empire in the 5th century CE. The course examines the development and interactions of cultures and empires centered on the Mediterranean and radiating out across the Afro-Eurasian landmasses. Through lectures, textbook and primary sources readings, and online exhibits and resources, this class will focus on political, social, and cultural concepts such as political legitimacy, identity, and the development of social hierarchies. At all points emphasis will be placed on historical thinking and trying to better understand past cultures rather than memorization of facts, figures, and dates.\n\nSyllabus PDF\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "post/paper1/index.html",
+    "href": "post/paper1/index.html",
+    "title": "Group maintenance in aggregative multicellularity",
+    "section": "",
+    "text": "Download\nPDF\n\n\nAbstract\nAggregative multicellularity occurs when dispersed cells join together to form a highly cooperative unit, in contrast to clonal multicellular organisms formed by cells that remain in contact after descent from a single cell. Because aggregative groups may include non-relatives, aggregative multicellular organisms should be particularly vulnerable to the rise of cheater cells that take advantage of social goods without paying the costs, reducing cooperation, and even threatening extinction. We review the key mechanisms by which aggregative multicellular organisms control cheaters with a focus on the best studied aggregative organisms, Myxococcus xanthus and Dictyostelium discoideum. These include various passive and active mechanisms to maintain high relatedness within aggregates, to enforce cooperation on aggregate members, and the costs of cheating on other key functions. Ultimately, aggregative multicellular organisms are not that different from clonal organisms descended from a single cell.\n\n\n\n\n\n\nFigure 1: Aggregative multicellularity in the social amoeba Dictyostelium discoideum and the pack hunting bacteria Myxococcus xanthus\n\n\n\n\n\nCitation\nJahan, Israt, Tyler Larsen, Joan E. Strassmann, and David C. Queller. “Group maintenance in aggregative multicellularity.” In The Evolution of Multicellularity, pp. 111-134. CRC Press, 2022.\n@incollection{jahan2022group,\n  title={Group maintenance in aggregative multicellularity},\n  author={Jahan, Israt and Larsen, Tyler and Strassmann, Joan E and Queller, David C},\n  booktitle={The Evolution of Multicellularity},\n  pages={111--134},\n  year={2022},\n  publisher={CRC Press}\n}\n\n\nRelated material\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "post/paper2/index.html",
+    "href": "post/paper2/index.html",
+    "title": "Reduced social function in experimentally evolved Dictyostelium discoideum implies selection for social conflict in nature",
+    "section": "",
+    "text": "Download\nPDF\n\n\nAbstract\nMany microbes interact with one another, but the difficulty of directly observing these interactions in nature makes interpreting their adaptive value complicated. The social amoeba Dictyostelium discoideum forms aggregates wherein some cells are sacrificed for the benefit of others. Within chimaeric aggregates containing multiple unrelated lineages, cheaters can gain an advantage by undercontributing, but the extent to which wild D. discoideum has adapted to cheat is not fully clear. In this study, we experimentally evolved D. discoideum in an environment where there were no selective pressures to cheat or resist cheating in chimaeras. Dictyostelium discoideum lines grown in this environment evolved reduced competitiveness within chimaeric aggregates and reduced ability to migrate during the slug stage. By contrast, we did not observe a reduction in cell number, a trait for which selection was not relaxed. The observed loss of traits that our laboratory conditions had made irrelevant suggests that these traits were adaptations driven and maintained by selective pressures D. discoideum faces in its natural environment. Our results suggest that D. discoideum faces social conflict in nature, and illustrate a general approach that could be applied to searching for social or non-social adaptations in other microbes.\n\n\n\nCitation\nLarsen Tyler J., Jahan Israt, Brock Debra A., Strassmann Joan E. and Queller David C. 2023. “Reduced social function in experimentally evolved Dictyostelium discoideum implies selection for social conflict in nature.” Proc. R. Soc. B 290: 20231722\n@article{Larsen_2023, \n    title={Reduced social function in experimentally evolved\n            Dictyostelium discoideum implies selection for social conflict in nature}, \n    volume={290}, \n    ISSN={1471-2954}, \n    url={http://dx.doi.org/10.1098/rspb.2023.1722}, \n    DOI={10.1098/rspb.2023.1722}, \n    number={2013}, \n    journal={Proceedings of the Royal Society B:Biological Sciences}, \n    publisher={The Royal Society},\n    author={Larsen, Tyler J. and Jahan, Israt and Brock, Debra A. and Strassmann, Joan E. and Queller, David C.}, \n    year={2023}, \n    month=dec \n}\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "talks/2022-04-30-cgtn-full-frame-interview/index.html",
+    "href": "talks/2022-04-30-cgtn-full-frame-interview/index.html",
+    "title": "Interview with CGTN Full Frame: Going Green",
+    "section": "",
+    "text": "I was featured in a long-form interview on an episode of CGTN’s “Full Frame”. In the interview, I discuss some of the challenges and opportunities China faces in the race to decarbonize it’s energy systems. I also discuss the critical role China is playing in scaling up the mass production of low carbon energy technologies like solar panels, wind turbines, lithium-ion batteries, and electric vehicles. My interview starts at minute 30:45 in the show, which you can watch here.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "talks/2021-04-20-sawtooth-conf-logitr/index.html",
+    "href": "talks/2021-04-20-sawtooth-conf-logitr/index.html",
+    "title": "Obtaining Willingness to Pay Estimates from Preference Space and Willingness to Pay Space Utility Models",
+    "section": "",
+    "text": "I gave a talk at the Sawtooth Software Conference Turbo Choice Modeling Seminar in San Antonio, Texas, April 19-23, 2021 (I pre-recorded my talk as I did not attend in-person). The talk is titled, “The {logitr} R Package: Obtaining Willingness to Pay Estimates from Preference Space and Willingness to Pay Space Utility Models”.\nLearn more about the {logitr} package here.\n\nTalk\n\n\n\n\nSlides\nMy slides were built using the {xaringan} R package. You can see the source code for the slides here.\n\n\n Full screen slides\n\n\n Slides as PDF\n\n\nKeyboard Shortcuts for Slides:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "The cbcTools Package: Tools for Designing and Testing Choice-Based Conjoint Surveys in R\n\n\n\n\n\nMy talk for the 2022 Sawtooth Software Conference \n\n\n\n\n\n2022-05-06\n\n\nIsrat Jahan\n\n\n\n\n\n\n\n\n\n\n\n\nInterview with CGTN Full Frame: Going Green\n\n\n\n\n\nI was featured in a long-form interview with CGTN discussing the challenges and opportunities China faces in the race to decarbonize it’s energy systems. \n\n\n\n\n\n2022-04-30\n\n\nIsrat Jahan\n\n\n\n\n\n\n\n\n\n\n\n\nISA Industrial Policy Webinar Series: Taking Charge\n\n\n\n\n\nI moderated the ISA Webinar on “Batteries for Electric Vehicles and the Transformation of the Automotive Supply Chain” \n\n\n\n\n\n2021-12-01\n\n\nIsrat Jahan\n\n\n\n\n\n\n\n\n\n\n\n\nHealthier ❤️ & Happier 😄 Hands 🙌\n\n\n\n\n\nMy talk on Software and Hardware Solutions for More Ergonomic Typing for the 2021 useR! Conference \n\n\n\n\n\n2021-07-06\n\n\nIsrat Jahan\n\n\n\n\n\n\n\n\n\n\n\n\nObtaining Willingness to Pay Estimates from Preference Space and Willingness to Pay Space Utility Models\n\n\n\n\n\nMy talk for the 2021 Sawtooth Conference Turbo Choice Modeling Panel \n\n\n\n\n\n2021-04-20\n\n\nIsrat Jahan\n\n\n\n\n\n\n\n\n\n\n\n\nUsing formr to create R-powered surveys with individualized feedback\n\n\n\n\n\nMy rstudio::conf 2021 lightning talk on creating R-powered surveys using {formr}” \n\n\n\n\n\n2021-01-21\n\n\nIsrat Jahan\n\n\n\n\n\n\n\n\n\n\n\n\nU. Albany Confucius Institute Fall 2020 Seminar on US-China Relations in the 21st Century\n\n\n\n\n\nMy discussion with Barry Naughton (UCSD) about industrial policy and low-carbon energy technologies in China \n\n\n\n\n\n2020-10-09\n\n\nIsrat Jahan\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n Back to top"
+  },
+  {
+    "objectID": "talks/2021-01-21-surveys-with-formr/index.html",
+    "href": "talks/2021-01-21-surveys-with-formr/index.html",
+    "title": "Using formr to create R-powered surveys with individualized feedback",
+    "section": "",
+    "text": "Watch the talk\nI gave a lightning talk at the 2021 rstudio conference on using {formr} to create R-powered surveys.\n\n\n Watch the lightning talk\n\n\nI also gave an extended version of the talk at the GW Coders Meetup on Feb. 19, 2021. You can see that below (the first 5 minutes is the same as my rstudio::conf lightning talk):\n\n\n\n\nSlides\nHere are my slides for my rstudio::conf lightning talk built using the {xaringan} R package. You can also see the source code for the slides here.\n\n\n Full screen slides\n\n\n Slides as PDF\n\n\nKeyboard Shortcuts for Slides:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\n\n\n\nSurveys with {formr}\nIn my presentation, I showed several examples of how to use the {formr} package to create different types of surveys. The surveys are all generated from Google sheets, which can be found here:\n\nRandom images demonstrates how to randomly display different images.\nConjoint surveys demonstrates how to create a conjoint survey with formr (go to the formr4conjoint repo for a more detailed description)\nTimed quizzes demonstrates how to create a timed quiz with randomly generated questions.\n\nTo use any of these surveys yourself, go to formr.org, create an account. Once you log in, go to the admin page and create a new survey. You can then paste in the link to the Google sheet there. If you want to edit it, just create copy of the Google sheet into your own Google Drive account and use the shared link to that Google sheet.\nOnce you have a survey uploaded, you can make it live by creating a “Run” and inserting the survey you created by clicking on the  icon as well as a “Stop” point to end the survey by clicking on the  icon. The link to the survey will be https://your_run_name.formr.org.\nYou can control the “publicness” of the survey by modifying the “volume” icons:\n\n means only you can access the survey\n means you and people who have an access code can access (no new users can enroll).\n means people who have the link can access.\n means the link is public, everyone can access.\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Israt Jahan",
+    "section": "",
+    "text": "I am an Evolutionary Biologist and Behavioral Ecologist. My Ph.D. focused on the evolution of multicellularity and symbiosis in the social amoeba Dictyostelium discoideum. I was co-supervised by Professor Joan Strassmann and Professor David Queller at Washington University in St. Louis and was funded by McDonnell International Scholars Academy.\nI use a combination of lab experiments, agent-based models, comparative genomics, phylotranscriptomics, and statistical modeling to research how genetic conflicts, and/or their resolution, drive the evolution of complex life and novel adaptations.\n\n\n Back to top"
+  },
+  {
+    "objectID": "project/debkeepr.html",
+    "href": "project/debkeepr.html",
+    "title": "debkeepr",
+    "section": "",
+    "text": "debkeepr integrates non-decimal currencies that use tripartite and tetrapartite systems into the methodologies of Digital Humanities and the practices of reproducible research. The package makes it possible for historical non-decimal currencies, such as the tripartite system of pounds, shillings, and pence, to behave like decimalized numeric values through the implementation of the deb_lsd, deb_tetra, and deb_decimal vector types. These types are based on the infrastructure provided by the vctrs package. debkkeepr simplifies the process of performing arithmetic calculations with non-decimal currencies — such as adding £3 13s. 4d. sterling to £8 15s. 9d. sterling — and also provides a basis for analyzing account books with thousands of transactions recorded in non-decimal currencies. The name of the debkeepr package derives from this latter capability of analyzing historical account books that often used double-entry bookkeeping."
+  },
+  {
+    "objectID": "project/debkeepr.html#installation",
+    "href": "project/debkeepr.html#installation",
+    "title": "debkeepr",
+    "section": "Installation",
+    "text": "Installation\nYou can install debkeepr from GitHub with remotes:\n\n# install.packages(\"remotes\")\nremotes::install_github(\"jessesadler/debkeepr\")\n\nPlease open an issue if you have any questions, comments, or requests."
+  },
+  {
+    "objectID": "project/debkeepr.html#historical-background",
+    "href": "project/debkeepr.html#historical-background",
+    "title": "debkeepr",
+    "section": "Historical Background",
+    "text": "Historical Background\nThe debkeepr package uses the nomenclature of l, s, and d to represent pounds, shillings, and pence units in non-decimal currencies. The abbreviations derive from the Latin terms libra, solidus, and denarius. The libra was a Roman measurement of weight, while the solidus and denarius were both Roman coins. The denarius was a silver coin from the era of the Republic, in contrast to the golden solidus that was issued in the Late Empire. As the production of silver coins overtook that of gold by the 8th century, a solidus came to represent 12 silver denarii coins, and 240 denarii were — for a time — made from one libra or pound of silver. The custom of counting coins in dozens (solidi) and scores of dozens (librae) spread throughout the Carolingian Empire and became ingrained in much of Europe. However, a variety of currencies or monies of account used other bases for the solidus and denarius units. Some currencies and other value systems, such as those for weights, added a fourth unit. debkeepr provides a consistent manner for dealing with any set of bases within tripartite or tetrapartite systems through the bases attribute of deb_lsd, deb_tetra, and deb_decimal vectors."
+  },
+  {
+    "objectID": "project/debkeepr.html#resources",
+    "href": "project/debkeepr.html#resources",
+    "title": "debkeepr",
+    "section": "Resources",
+    "text": "Resources\n\nGetting Started with debkeepr vignette: An introduction to the deb_lsd, deb_tetra, and deb_decimal types and their use as vectors and as columns in data frames.\nTransactions in Richard Dafforne’s Journal vignette: Examples of financial and arithmetic calculations dealing with various currencies taken from the practice journal in Richard Dafforne’s Merchant’s Mirrour (1660), a 17th-century textbook for learning accounting practices.\nAnalysis of Richard Dafforne’s Journal and Ledger vignette: An analysis of the practice journal and ledger in Dafforne’s Merchant’s Mirrour using the dafforne_transactions and dafforne_accounts data provided in debkeepr.\nA PDF copy of Dafforne’s practice journal can be consulted to further investigate the practices of early modern double-entry bookkeeping."
+  },
+  {
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "Now",
+    "section": "",
+    "text": "This is a now page, where I occasionally update where I am, what I’m doing, and/or what I’m trying to focus on.\n\n\n📍 Munich, Germany\nAfter jumping through what felt like endless hoops of approval processes, funding changes and decision fatigue, I’ve finally started my many months long research trip across Europe & North America. Some upcoming highlights include:\n\n🇩🇪 Visiting SoDa group at LMU (Jun 13-26)\n🇦🇹 Presenting on ex-post harmonisation and the {xmap} package at UseR!, Salzburg (Jul 8-11)\n🇺🇸 Presenting on assessing statisical programming skills at JSM, Portland (Aug 3-9)\n🇺🇸 Presenting on Quarto for Knowledge Management in the Level up your Data Science Skills session at posit::conf(2024), Seattle (Aug 12-14)\n🇨🇦 Visiting the InfoVis group at UBC, Vancouver, (Jul-Nov)\n\nIt’s hard to express how grateful I am for this opportunity and the support I’ve gotten, especially from my supervisors, to not only expand my research network, but also to experience so many new cities and countries 🥰.\nOn great experiences, I may have found one of my favourite Vietnamese restaurants (ever, and that’s saying a lot coming from Melbourne) after getting caught in the rain in Amsterdam last week and striking up a conversation with the stranger I was sharing my table with at Saint Jean Deli. The sticky rice Xôi bowl at bonjour càphê is just the perfect blend of textural variety and flavour balance was just chef’s kiss. I had the fish & dill bowl, and the sticky rice felt amazingly light with just the right amount of bite, while the pickled mango gave the dish a sweet and acidic brightness that just perfectly tied together the slightly saltiness of the fish the aroma of the herbs and chilli. My only regret is that I only found this place on Monday when I was leaving the next morning, and their tasting menu is not available on Monday nights 🥲. I’m seriously considering when/how I might get myself back to Amsterdam to try it."
+  },
+  {
+    "objectID": "now.html#june-2024",
+    "href": "now.html#june-2024",
+    "title": "Now",
+    "section": "",
+    "text": "📍 Munich, Germany\nAfter jumping through what felt like endless hoops of approval processes, funding changes and decision fatigue, I’ve finally started my many months long research trip across Europe & North America. Some upcoming highlights include:\n\n🇩🇪 Visiting SoDa group at LMU (Jun 13-26)\n🇦🇹 Presenting on ex-post harmonisation and the {xmap} package at UseR!, Salzburg (Jul 8-11)\n🇺🇸 Presenting on assessing statisical programming skills at JSM, Portland (Aug 3-9)\n🇺🇸 Presenting on Quarto for Knowledge Management in the Level up your Data Science Skills session at posit::conf(2024), Seattle (Aug 12-14)\n🇨🇦 Visiting the InfoVis group at UBC, Vancouver, (Jul-Nov)\n\nIt’s hard to express how grateful I am for this opportunity and the support I’ve gotten, especially from my supervisors, to not only expand my research network, but also to experience so many new cities and countries 🥰.\nOn great experiences, I may have found one of my favourite Vietnamese restaurants (ever, and that’s saying a lot coming from Melbourne) after getting caught in the rain in Amsterdam last week and striking up a conversation with the stranger I was sharing my table with at Saint Jean Deli. The sticky rice Xôi bowl at bonjour càphê is just the perfect blend of textural variety and flavour balance was just chef’s kiss. I had the fish & dill bowl, and the sticky rice felt amazingly light with just the right amount of bite, while the pickled mango gave the dish a sweet and acidic brightness that just perfectly tied together the slightly saltiness of the fish the aroma of the herbs and chilli. My only regret is that I only found this place on Monday when I was leaving the next morning, and their tasting menu is not available on Monday nights 🥲. I’m seriously considering when/how I might get myself back to Amsterdam to try it."
+  },
+  {
+    "objectID": "photos.html",
+    "href": "photos.html",
+    "title": "Israt Jahan",
+    "section": "",
+    "text": "Rows: 26 Columns: 2\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (1): img_path\nlgl (1): alt_text\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "course.html",
+    "href": "course.html",
+    "title": "Israt Jahan",
+    "section": "",
+    "text": "Digital History for Public History\n\n\n\n\n\n\n\n\n\n\n\nAncient History\n\n\n\n\n\n\n\n\n\n\n\nRevolution in Modern Europe\n\n\n\n\n\n\n\n\n\n\n\nThe Italian Renaissance\n\n\n\n\n\n\n\n\n\n\n\nModern World History\n\n\n\n\n\n\n\n\n\n\n\nEurope and the World 1200–1648\n\n\n\n\n\n\n\n\n\n\n\nEuropean Empires, Exploration, and Exchange since 1500\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Western Civilization: Circa A.D. 843 to circa 1715\n\n\n\n\n\n\n\n\n\n\n\nVirtue and Commerce: Republicanism and the Development of the Global Economy\n\n\n\n\n\n\n\n\n\n\n\nFreemasonry, Civil Society, and Democracy in 18th-Century Europe and America\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  }
+]
