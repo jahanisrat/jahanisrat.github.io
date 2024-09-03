@@ -1,0 +1,54 @@
+---
+title: "Reduced social function in experimentally evolved Dictyostelium discoideum implies selection for social conflict in nature" 
+date: 2023-12-11
+categories: [social evolution, multicellularity, relaxed selection, experimental evolution, dictyostelium]
+image: "cover.jpg"
+
+subtitle: "We tested whether cheating is adaptive in social amoeba in the wild. Published in Proc. Roy. Soc. B, 2023." 
+description: "This paper shows that *Dictyostelium discoideum* is under selection for cheating in nature using experimentally evolved lineages that were grown under relaxed selection for sociality" 
+
+editPost:
+    URL: "http://doi.org/10.1098/rspb.2023.1722"
+    Text: "Link to the published paper"
+
+authors: 
+ - "Tyler J. Larsen"
+ - "**Israt Jahan**"
+ - "Debra A. Brock"
+ - "Joan E. Strassmann"
+ - "David C. Queller"
+
+---
+
+##### Download
+
+  [PDF](larsen_2023.pdf)
+
+
+##### **Abstract**
+
+Many microbes interact with one another, but the difficulty of directly observing these interactions in nature makes interpreting their adaptive value complicated. The social amoeba *Dictyostelium discoideum* forms aggregates wherein some cells are sacrificed for the benefit of others. Within chimaeric aggregates containing multiple unrelated lineages, cheaters can gain an advantage by undercontributing, but the extent to which wild *D. discoideum* has adapted to cheat is not fully clear. In this study, we experimentally evolved *D. discoideum* in an environment where there were no selective pressures to cheat or resist cheating in chimaeras. *Dictyostelium discoideum* lines grown in this environment evolved reduced competitiveness within chimaeric aggregates and reduced ability to migrate during the slug stage. By contrast, we did not observe a reduction in cell number, a trait for which selection was not relaxed. The observed loss of traits that our laboratory conditions had made irrelevant suggests that these traits were adaptations driven and maintained by selective pressures *D. discoideum* faces in its natural environment. Our results suggest that *D. discoideum* faces social conflict in nature, and illustrate a general approach that could be applied to searching for social or non-social adaptations in other microbes.
+
+---
+
+##### Citation
+
+Larsen Tyler J., Jahan Israt, Brock Debra A., Strassmann Joan E. and Queller David C. 2023. "Reduced social function in experimentally evolved *Dictyostelium discoideum* implies selection for social conflict in nature." *Proc. R. Soc. B* **290**: 20231722
+
+```BibTeX
+@article{Larsen_2023, 
+    title={Reduced social function in experimentally evolved
+            Dictyostelium discoideum implies selection for social conflict in nature}, 
+    volume={290}, 
+    ISSN={1471-2954}, 
+    url={http://dx.doi.org/10.1098/rspb.2023.1722}, 
+    DOI={10.1098/rspb.2023.1722}, 
+    number={2013}, 
+    journal={Proceedings of the Royal Society B:Biological Sciences}, 
+    publisher={The Royal Society},
+    author={Larsen, Tyler J. and Jahan, Israt and Brock, Debra A. and Strassmann, Joan E. and Queller, David C.}, 
+    year={2023}, 
+    month=dec 
+}
+```
+

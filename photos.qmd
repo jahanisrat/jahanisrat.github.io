@@ -1,0 +1,48 @@
+---
+title: ""
+format: html
+lightbox: true
+filters:
+  - masonry
+page-layout: full
+include-in-header: 
+  - text: |
+      <style>
+      .grid-item {
+        width: 25%;
+        float: left;
+        background: #FFFFFF;
+        border: 2px solid #333;
+        border-color: hsla(0, 0%, 0%, 0.5);
+        border-radius: 8px;
+      }
+      figcaption {
+        display: none;
+      }
+      .quarto-figure {
+        margin-bottom: 0px;
+      }
+      </style>
+---
+
+<!-- ::: {style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));grid-gap: 1em;"} -->
+
+:::: {.grid data-masonry='{ "itemSelector": ".grid-item", "gutter": 0 }'}
+
+```{r}
+#| output: asis
+#| echo: false
+#| message: false
+img_meta <- readr::read_csv("photos/image-meta.csv")
+img_files <- img_meta$img_path
+img_captions <- img_meta$alt_text
+cat(
+  glue::glue("
+    :::{{.grid-item}}
+    ![{img_captions}](photos/{img_files}){{group='my-gallery'}}
+    :::"),
+  sep = "\n"
+)
+```
+
+:::::

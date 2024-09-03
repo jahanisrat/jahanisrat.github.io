@@ -1,0 +1,46 @@
+## Working Papers & Papers Under Review
+
+<!-- `r make_pub_list(pubs, "working")` -->
+
+<!-- ## Books and Book Chapters -->
+
+<!-- `r make_pub_list(pubs, "book")` -->
+
+## Theses
+
+<!-- `r make_pub_list(pubs, "theses")` -->
+
+<!-- ## Software -->
+
+<!-- `r make_pub_list(pubs, "software")` -->
+
+<!-- ## Media Coverage -->
+
+<!-- `r make_media_list()` -->
+
+<!-- ## Refereed Articles in Conference Proceedings -->
+
+<!-- `r make_pub_list(pubs, "conference")` -->
+
+<!-- ## Magazine Publications -->
+
+<!-- `r make_pub_list(pubs, "magazine")` -->
+
+<!-- ## Student Theses -->
+
+<!-- <aside>Theses by students advised by Helveston</aside> -->
+
+<!-- `r make_pub_list(pubs, "theses_student")` -->
+
+<!-- ## Magazine Publications -->
+
+<!-- `r make_pub_list(pubs, "magazine")` -->
+
+<!-- ## Opinion Editorials -->
+
+<!-- `r make_pub_list(pubs, "oped")` -->
+
+<!-- ## Other -->
+
+<!-- `r make_pub_list(pubs, "other")` -->
+

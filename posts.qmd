@@ -1,0 +1,16 @@
+---
+title: "Key Publications"
+listing:
+  contents: post
+  sort: "date desc"
+  type: default
+  categories: true
+  image-align: "left"
+  sort-ui: false
+  filter-ui: false
+  date-format: "D MMMM YYYY"
+  feed: true
+page-layout: full
+title-block-banner: false
+---
+

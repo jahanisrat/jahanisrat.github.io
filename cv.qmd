@@ -1,0 +1,16 @@
+---
+title: "Curriculum Vitae"
+layout: full
+execute: 
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r setup}
+source("_common.R")
+```
+
+
+{{< pdf content/cv.pdf width=100% height=800 >}}
+

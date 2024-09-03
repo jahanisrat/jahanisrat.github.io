@@ -1,0 +1,126 @@
+/*-- scss:defaults --*/
+
+// Colors
+$orange:       #ff9600 !default;
+$light-orange: #ffaa00 !default;
+$teal:         #00AFD4 !default;
+
+// Navbar
+$navbar-bg: $orange !default;
+$navbar-hl: $teal !default;
+
+// Links
+$link-color:            $orange !default;
+$link-decoration:       none !default;
+$link-hover-color:      $light-orange !default;
+$link-hover-decoration: underline !default;
+
+// Table of contents
+$toc-color:     $teal !default;
+$toc-font-size: 1rem !default;
+
+// Code
+$code-color:    $teal !default;
+$code-bg:       #f8f9fa !default; // lighten background for code
+$code-block-bg: #f8f9fa !default;
+
+// Fonts
+
+// import google fonts
+@import url('https://fonts.googleapis.com/css?family=Cormorant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:ital,opsz,wght@0,6..12,300;1,6..12,300&display=swap');
+
+//** use Avenir font if available
+$headings-font-family: "Cormorant", serif !default;
+$font-family-sans-serif: "Open Sans", sans-serif !default;
+$font-family-monospace:  "Source Code Pro", monospace !default;
+$font-size-base: 1rem !default;
+
+/*-- scss:rules --*/
+
+//** Article subtitle: Lighten color of subtitle
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #6c757d;
+}
+
+// Title block: Category styling
+.quarto-title {
+  .quarto-categories {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.5em;
+    column-gap: 0.4em;
+    padding-bottom: 0.5em;
+    margin-top: 0.75em;
+
+    .quarto-category {
+      padding: 0.25em 0.75em;
+      font-size: 0.65em;
+      font-family: Monospace; // monospace
+      text-transform: lowercase; // lowercase
+      border: solid 1px;
+      border-radius: $border-radius;
+      opacity: 0.6;
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+}
+
+// Listing page: Category styling for right sidebar
+#quarto-margin-sidebar {
+  .quarto-listing-category {
+    padding-top: 0;
+    font-family: Monospace;
+    font-size: 0.85rem;
+  }
+  .quarto-listing-category-title {
+    cursor: pointer;
+    font-weight: 600;
+    font-family: Monospace;
+    font-size: 1rem;
+  }
+}
+
+
+/*-- scss:mixins --*/
+
+// Listing page: Category styling in post listing
+@mixin listing-category {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 8px;
+
+  .listing-category {
+    color: listing-override-value($theme-name, "category-color", $text-muted);
+
+    $val: listing-override-value($theme-name, "category-border", null);
+    @if $val != null {
+      border: $val;
+    } @else {
+      border: solid 1px $border-color;
+    }
+
+    border-radius: $border-radius;
+    font-size: 0.65em;
+    text-transform: lowercase;  // lowercase
+    font-family: Monospace; // monospace
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;
+    cursor: pointer;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+}
+
+/*-- scss:blog --*/
+.quarto-grid-item:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

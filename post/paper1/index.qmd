@@ -1,0 +1,65 @@
+---
+title: "Group maintenance in aggregative multicellularity" 
+date: 2022-06-08
+categories: [multicellularity, social evolution, myxococcus, dictyostelium, major transitions]
+subtitle: "This paper was published as a chapter in the book Evolution of Multicellularity edited by Matthew Herron, Peter Conlin, and William Ratcliff." 
+description: "We showed that aggregative organisms and clonal organisms are quite alike because of active and passive cheating control mechanisms." 
+image: "cover1.jpg"
+editPost:
+    URL: "https://www.taylorfrancis.com/chapters/edit/10.1201/9780429351907-9/group-maintenance-aggregative-multicellularity-israt-jahan-tyler-larsen-joan-strassmann-david-queller"
+    Text: "In Evolution of Multicellularity, CRC Press"
+
+authors: 
+ - "**Israt Jahan**" 
+ - "Tyler J. Larsen" 
+ - "Joan E. Strassmann"
+ -  "David C. Queller"
+
+---
+
+
+##### Download
+
+ [PDF](paper1.pdf)
+
+
+##### **Abstract**
+
+Aggregative multicellularity occurs when dispersed cells join together to form a highly cooperative unit, in contrast to clonal multicellular organisms formed by cells that remain in contact after descent from a single cell. Because aggregative groups may include non-relatives, aggregative multicellular organisms should be particularly vulnerable to the rise of cheater cells that take advantage of social goods without paying the costs, reducing cooperation, and even threatening extinction. We review the key mechanisms by which aggregative multicellular organisms control cheaters with a focus on the best studied aggregative organisms, *Myxococcus xanthus* and *Dictyostelium discoideum*. These include various passive and active mechanisms to maintain high relatedness within aggregates, to enforce cooperation on aggregate members, and the costs of cheating on other key functions. Ultimately, aggregative multicellular organisms are not that different from clonal organisms descended from a single cell.
+
+
+
+[//]: # (This is a comment)
+
+[//]: # "And this is a comment"
+
+[//]: # 'Also this is a comment'
+
+[//]: # (Yet another comment)
+
+[comment]: # (paper1.png)
+
+[//]: # (Figure 1: Aggregative multicellularity in the social amoeba *Dictyostelium discoideum* and the pack hunting bacteria *Myxococcus xanthus*)
+
+![Aggregative multicellularity in the social amoeba *Dictyostelium discoideum* and the pack hunting bacteria *Myxococcus xanthus*](paper1.png){#fig-1}
+
+
+##### Citation
+
+Jahan, Israt, Tyler Larsen, Joan E. Strassmann, and David C. Queller. "Group maintenance in aggregative multicellularity." In The Evolution of Multicellularity, pp. 111-134. CRC Press, 2022.
+
+```BibTeX
+@incollection{jahan2022group,
+  title={Group maintenance in aggregative multicellularity},
+  author={Jahan, Israt and Larsen, Tyler and Strassmann, Joan E and Queller, David C},
+  booktitle={The Evolution of Multicellularity},
+  pages={111--134},
+  year={2022},
+  publisher={CRC Press}
+}
+
+```
+
+##### Related material
+
+

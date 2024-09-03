@@ -1,0 +1,81 @@
+---
+title: "Research"
+description: I am broadly interested in major evolutionary transitions and the evolution of novelty. I apply a gene's eye view to organismal evolution to better understand how genetic conflicts and their resolution inform development. I have expertise in social amoebae, multicellularity, endosymbiosis, phylostratigraphy, and statistical modelling in R. My research is theoretically grounded in the principles of social evolution and behavioral ecology, with scientific and philosophical implications on germ-soma, complexity and organismality.
+
+execute: 
+  echo: false
+  message: false
+  warning: false
+format: html 
+toc: true
+toc-location: left
+---
+
+```{r setup}
+source("_common.R")
+
+```
+
+<!-- Remove margin under list items -->
+
+<style>
+ol {
+    margin-bottom: 5px;
+}
+p {
+  margin: 5px 0 0 0;
+}
+</style>
+
+<center>
+
+`r htmltools::HTML(paste0(icon_link(icon = "ai ai-google-scholar", text = "Google Scholar", url  = "https://scholar.google.com/citations?user=517dZYcAAAAJ&hl=en"), icon_link(icon = "ai ai-orcid", text = "ORCID", url  = "https://orcid.org/0000-0002-2950-1664"), icon_link(icon = "ai ai-researchgate", text = "Research Gate", url = "https://www.researchgate.net/profile/Israt-Jahan-50")))`
+
+<br>
+
+<!-- <u>Underline</u> indicates advisee; * graduate student, **undergraduate student -->
+
+</center>
+
+<br>
+
+
+## Working Papers/Under Review
+
+```{r working}
+# Update local copy of "pubs" Google sheet
+# write_csv(get_pubs(), here::here('content', 'pubs.csv'))
+
+# Get local copy of pubs
+# pubs <- read_csv(here::here('content', 'pubs.csv'))
+
+pubs <- get_pubs()
+make_pub_list(pubs, 'working')
+
+```
+
+
+## Peer-Reviewed Journal Articles
+
+```{r peer-reviewed}
+# Update local copy of "pubs" Google sheet
+# write_csv(get_pubs(), here::here('content', 'pubs.csv'))
+
+# Get local copy of pubs
+# pubs <- read_csv(here::here('content', 'pubs.csv'))
+
+# Get pubs from Google sheet
+
+pubs <- get_pubs()
+make_pub_list(pubs, 'peer_reviewed')
+
+```
+
+## Theses
+
+```{r theses}
+make_pub_list(pubs, 'theses')
+
+```
+
+

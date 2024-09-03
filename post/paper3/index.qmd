@@ -1,0 +1,38 @@
+---
+title: "Non Adaptive Incompatibilities in Aggregative Multicellularity"
+date: 2024-05-11
+categories: [developmental incompatibilities, multicellularity, aggregation, complexity, dictyostelium]
+authors: 
+ - "**Israt Jahan**"
+ - "Trey J. Scott"
+ - "Joan E. Strassmann"
+ - "David C. Queller"
+
+description: "This paper shows that developmental incompatibilities may evolve readily but their fitness costs may be dependent on whether selection favors migration or producing more spores" 
+image: "figure1.jpg"
+
+editPost:
+    URL: "https://doi.org/10.1101/2024.05.12.593719"
+    Text: "Link to the bioRxiv preprint"
+
+---
+
+
+##### Download
+
+ [PDF](Jahan_incompatibilities_bioRxiv.pdf)
+ 
+ [Code and data](https://github.com/jahanisrat/WolpertHypothesis)
+
+
+
+##### **Abstract**
+
+Multicellular organisms that form by aggregation of cells arguably do not achieve high levels of complexity. Conflict among the cells is a widely accepted explanation for this, but an alternative hypothesis is that mixing cells of different genotypes leads to failures of coordination, which we call the ‘coordination hypothesis’. We empirically tested the coordination hypothesis in the social amoeba Dictyostelium discoideum. We mixed D. discoideum clones that had evolved in isolation for generations and accumulated mutations that have not been tested against each other by selection. To quantify the effect of incompatibilities, we measured performance in terms of the developmental traits of slug migration and spore production. Importantly, kin recognition incompatibilities were avoided by mixing lines evolved from the same ancestor under conditions that would not select for the evolution of de novo recognition. Our results show no evidence of incompatibilities in coordinated movement of slugs towards light in the social amoeba. Spore production was higher than expected in mixtures, in apparent contradiction to the coordination hypothesis. However, we found support for coordination incompatibilities in an interaction between migration and spore production: in mixtures, fewer cells succeeded at migrating and becoming spores.
+
+
+##### Citation
+*forthcoming*
+
+
+

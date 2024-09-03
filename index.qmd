@@ -1,0 +1,32 @@
+---
+title: "Israt Jahan"
+image: "profile.jpeg"
+execute: 
+  echo: false
+  message: false
+  warning: false
+about:
+  template: trestles
+  links:
+    - icon: twitter
+      href: https://twitter.com/_isratjahan
+    - icon: github
+      href: https://github.com/jahanisrat
+#    - icon: mastodon
+#      href: https://fediscience.org/\\@jhelvy
+    - text: '<i class="ai ai-google-scholar fa-lg"></i>'
+      href: https://scholar.google.com/citations?user=517dZYcAAAAJ&hl=en
+    - text: '<i class="ai ai-researchgate fa-lg"></i>'
+      href: https://www.researchgate.net/profile/Israt-Jahan-50
+    - text: '<i class="ai ai-orcid fa-lg"></i>'
+      href: https://orcid.org/0000-0002-2950-1664
+    
+---
+
+```{r setup}
+source("_common.R")
+```
+
+I am an Evolutionary Biologist and Behavioral Ecologist. My Ph.D. focused on the evolution of multicellularity and symbiosis in the social amoeba *Dictyostelium discoideum*. I was co-supervised by Professor Joan Strassmann and Professor David Queller at Washington University in St. Louis and was funded by McDonnell International Scholars Academy. 
+
+I use a combination of lab experiments, agent-based models, comparative genomics, phylotranscriptomics, and statistical modeling to research how genetic conflicts, and/or their resolution, drive the evolution of complex life and novel adaptations.

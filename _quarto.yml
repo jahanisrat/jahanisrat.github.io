@@ -1,0 +1,87 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 5786
+    browser: true
+
+website:
+  title: "Israt Jahan"
+  description: "The personal website of Israt Jahan"
+  image: favicon/favicon.ico
+  site-url: https://jahanisrat.github.io/
+  favicon: favicon/favicon.ico
+  #repo-url: https://github.com/jhelvy/jhelvy_quarto
+  search:
+    location: navbar
+    type: overlay
+  back-to-top-navigation: true
+  open-graph:
+    locale: es_ES
+    #site-name: https://jhelvy.com
+  twitter-card:
+    creator: "@_isratjahan"
+    site: "@_isratjahan"
+    #image: images/lab/john_helveston_circle.png
+    card-style: summary  
+    image-height: 150
+    image-width: 150
+  navbar:
+    right:
+      - text: "Home"
+        href: https://jahanisrat.github.io/
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+#      - text: "Courses"
+#        href: course.qmd
+#      - text: "Projects"
+#        href: project.qmd
+#      - text: "Talks"
+#        href: talks/index.qmd
+      - text: "Highlights"
+        href: posts.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Gallery"
+        href: photos.qmd
+      - icon: list
+        menu:
+          - icon: github
+            href: https://github.com/jahanisrat
+            aria-label: GitHub
+            target: blank
+          - icon: twitter
+            href: https://twitter.com/_isratjahan
+            target: blank
+#          - icon: linkedin
+#          - icon: mastodon
+#            href: https://fediscience.org/\\@jhelvy
+#            target: blank
+          - text: "<i class='ai ai-google-scholar fa-lg'></i>"
+            href: https://scholar.google.com/citations?user=517dZYcAAAAJ&hl=en
+            target: blank
+          - text: "<i class='ai ai-researchgate fa-lg'></i>"
+            href: https://www.researchgate.net/profile/Israt-Jahan-50
+            target: blank
+          - text: "<i class='ai ai-orcid fa-lg'></i>"
+            href: https://orcid.org/0000-0002-2950-1664
+            target: blank
+          # - icon: rss-fill
+          #   href: blog.xml
+          #   target: blank
+  page-footer:
+    center:
+      - text: "© 2024 Israt Jahan<br>Site made with <i class='bi bi-heart-fill'></i>, <a href='https://github.com/jahanisrat/jhelvy_quarto' target='_blank'><i class='bi bi-git'></i></a>, and <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a>"
+
+format:
+  html:
+    theme: [default, css/theme.scss]
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: true
+    # This is to include fontawesome and academic icons in the headers:
+    include-in-header: "_includes/header.html"
+    
