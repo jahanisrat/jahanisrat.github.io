@@ -5,6 +5,7 @@ execute:
   echo: false
   message: false
   warning: false
+  free: auto
 about:
   template: trestles
   links:

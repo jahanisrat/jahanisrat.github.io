@@ -8,6 +8,7 @@ execute:
   warning: false
 format: html 
 toc: true
+#freeze: true
 toc-location: left
 ---
 
